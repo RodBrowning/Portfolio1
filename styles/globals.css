@@ -43,11 +43,6 @@ body {
 
 /* =========== HEADER STYLES =========== */
 
-header {
-  padding-top: 7rem;
-  overflow: hidden;
-}
-
 .container {
   max-width: var(--container-width-lg);
   margin: 0 auto;

@@ -7,7 +7,7 @@ import styles from '../../styles/Header.module.css'
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <div className={"container " + styles.header__container}>
         <h5>Hello I'm</h5>
         <h1>Hajia Bintu</h1>
