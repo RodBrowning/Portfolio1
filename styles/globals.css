@@ -41,13 +41,12 @@ body {
   background-image: url(../public/assets/bg-texture.png);
 }
 
+/* =========== HEADER STYLES =========== */
+
 header {
   padding-top: 7rem;
   overflow: hidden;
 }
-
-
-/* =========== GENERAL STYLES =========== */
 
 .container {
   max-width: var(--container-width-lg);

@@ -3,7 +3,7 @@ import styles from '../../styles/Testimonials.module.css'
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <section id='testimonials'>Testimonials</section>
   )
 }
 

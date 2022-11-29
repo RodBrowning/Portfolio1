@@ -3,7 +3,7 @@ import styles from '../../styles/Services.module.scss'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <section id='services'>Services</section>
   )
 }
 
