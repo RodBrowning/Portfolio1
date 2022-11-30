@@ -1,12 +1,15 @@
 import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
 import {BiBook, BiMessageSquareDetail} from 'react-icons/bi'
-import React, {useState} from 'react'
 
 import {RiServiceLine} from 'react-icons/ri'
 import styles from '../../styles/Nav.module.css'
 
-const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+interface IProps {
+  activeNav: String;
+  setActiveNav: Function;
+}
+
+const Nav = ({activeNav, setActiveNav}:IProps) => {
   return (
     <nav className={styles.nav}>
       <a href="#" onClick={()=>{setActiveNav('#')}} className={activeNav === '#' ? styles.active : ''}><AiOutlineHome/></a>
