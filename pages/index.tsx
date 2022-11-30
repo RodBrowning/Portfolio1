@@ -15,7 +15,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Protfolio</title>
-        <meta name="description" content="Pne page app for portfolio" />
+        <meta name="description" content="One page app for portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
